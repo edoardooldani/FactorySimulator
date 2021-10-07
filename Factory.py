@@ -34,19 +34,19 @@ myfont = pygame.font.SysFont('Comic Sans MS', 40)
 
 textMotor = myfont.render('Engine', False, (0, 0, 0))
 
-motorIcon = pygame.image.load("motor.png")
+motorIcon = pygame.image.load("images/motor.png")
 motorIcon = pygame.transform.scale(motorIcon, (150, 150))
 motorIconRect = motorIcon.get_rect()
 motorIconRect = motorIconRect.move(30, 500)
 
-motorStatusIcon = pygame.image.load("circleStatus.png")
+motorStatusIcon = pygame.image.load("images/circleStatus.png")
 motorStatusIcon = pygame.transform.scale(motorStatusIcon, (20, 20))
 motorStatusIconRect = motorStatusIcon.get_rect()
 motorStatusIconRect = motorStatusIconRect.move(30, 450)
 
 # ARROW AFTER MOTOR AND BEFORE CONVEYOR BELT
 
-arrow1Icon = pygame.image.load("arrow.png")
+arrow1Icon = pygame.image.load("images/arrow.png")
 arrow1Icon = pygame.transform.scale(arrow1Icon, (50, 50))
 arrow1IconRect = arrow1Icon.get_rect()
 arrow1IconRect = arrow1IconRect.move(190, 580)
@@ -55,19 +55,19 @@ arrow1IconRect = arrow1IconRect.move(190, 580)
 
 textConveyorBelt = myfont.render('Conveyor belt', False, (0, 0, 0))
 
-conveyorBeltIcon = pygame.image.load("conveyorBelt.png")
+conveyorBeltIcon = pygame.image.load("images/conveyorBelt.png")
 conveyorBeltIcon = pygame.transform.scale(conveyorBeltIcon, (300, 300))
 conveyorBeltIconRect = conveyorBeltIcon.get_rect()
 conveyorBeltIconRect = conveyorBeltIconRect.move(200, 470)
 
-conveyorBeltStatusIcon = pygame.image.load("circleStatus.png")
+conveyorBeltStatusIcon = pygame.image.load("images/circleStatus.png")
 conveyorBeltStatusIcon = pygame.transform.scale(conveyorBeltStatusIcon, (20, 20))
 conveyorBeltStatusIconRect = conveyorBeltStatusIcon.get_rect()
 conveyorBeltStatusIconRect = conveyorBeltStatusIconRect.move(300, 500)
 
 # ARROW AFTER CONVEYOR BELT AND BEFORE WEAVING LOOM
 
-arrow2Icon = pygame.image.load("arrow.png")
+arrow2Icon = pygame.image.load("images/arrow.png")
 arrow2Icon = pygame.transform.scale(arrow2Icon, (50, 50))
 arrow2IconRect = arrow2Icon.get_rect()
 arrow2IconRect = arrow2IconRect.move(460, 580)
@@ -76,19 +76,19 @@ arrow2IconRect = arrow2IconRect.move(460, 580)
 
 textWeavingLoom = myfont.render('Weaving loom', False, (0, 0, 0))
 
-weavingLoomIcon = pygame.image.load("weavingloom.png")
+weavingLoomIcon = pygame.image.load("images/weavingloom.png")
 weavingLoomIcon = pygame.transform.scale(weavingLoomIcon, (150, 150))
 weavingLoomIconRect = weavingLoomIcon.get_rect()
 weavingLoomIconRect = weavingLoomIconRect.move(550, 500)
 
-weavingLoomStatusIcon = pygame.image.load("circleStatus.png")
+weavingLoomStatusIcon = pygame.image.load("images/circleStatus.png")
 weavingLoomStatusIcon = pygame.transform.scale(weavingLoomStatusIcon, (20, 20))
 weavingLoomStatusIconRect = weavingLoomStatusIcon.get_rect()
 weavingLoomStatusIconRect = weavingLoomStatusIconRect.move(550, 450)
 
 # ARROW AFTER WEAVING LOOM AND BEFORE CONVEYOR BELT TO UP
 
-arrow3Icon = pygame.image.load("arrow.png")
+arrow3Icon = pygame.image.load("images/arrow.png")
 arrow3Icon = pygame.transform.scale(arrow3Icon, (50, 50))
 arrow3IconRect = arrow3Icon.get_rect()
 arrow3IconRect = arrow3IconRect.move(710, 580)
@@ -97,19 +97,19 @@ arrow3IconRect = arrow3IconRect.move(710, 580)
 
 textConveyorBeltToUp = myfont.render('Conveyor belt', False, (0, 0, 0))
 
-conveyorBeltToUpIcon = pygame.image.load("conveyorToUp.png")
+conveyorBeltToUpIcon = pygame.image.load("images/conveyorToUp.png")
 conveyorBeltToUpIcon = pygame.transform.scale(conveyorBeltToUpIcon, (150, 150))
 conveyorBeltToUpIconRect = conveyorBeltToUpIcon.get_rect()
 conveyorBeltToUpIconRect = conveyorBeltToUpIconRect.move(780, 470)
 
-conveyorBeltToUpStatusIcon = pygame.image.load("circleStatus.png")
+conveyorBeltToUpStatusIcon = pygame.image.load("images/circleStatus.png")
 conveyorBeltToUpStatusIcon = pygame.transform.scale(conveyorBeltToUpStatusIcon, (20, 20))
 conveyorBeltToUpStatusIconRect = conveyorBeltToUpStatusIcon.get_rect()
 conveyorBeltToUpStatusIconRect = conveyorBeltToUpStatusIconRect.move(800, 650)
 
 # ARROW AFTER CONVEYOR BELT TO UP AND BEFORE HYDRAULIC PRESS
 
-arrow4Icon = pygame.image.load("arrow.png")
+arrow4Icon = pygame.image.load("images/arrow.png")
 arrow4Icon = pygame.transform.scale(arrow4Icon, (50, 50))
 arrow4Icon = pygame.transform.rotate(arrow4Icon, 90)
 arrow4IconRect = arrow4Icon.get_rect()
@@ -119,19 +119,19 @@ arrow4IconRect = arrow4IconRect.move(880, 420)
 
 textHydraulicPress = myfont.render('Hydraulic press', False, (0, 0, 0))
 
-hydraulicPressIcon = pygame.image.load("hydraulicPress.png")
+hydraulicPressIcon = pygame.image.load("images/hydraulicPress.png")
 hydraulicPressIcon = pygame.transform.scale(hydraulicPressIcon, (150, 150))
 hydraulicPressIconRect = hydraulicPressIcon.get_rect()
 hydraulicPressIconRect = hydraulicPressIconRect.move(830, 260)
 
-hydraulicPressStatusIcon = pygame.image.load("circleStatus.png")
+hydraulicPressStatusIcon = pygame.image.load("images/circleStatus.png")
 hydraulicPressStatusIcon = pygame.transform.scale(hydraulicPressStatusIcon, (20, 20))
 hydraulicPressStatusIconRect = hydraulicPressStatusIcon.get_rect()
 hydraulicPressStatusIconRect = hydraulicPressStatusIconRect.move(950, 210)
 
 # ARROW AFTER HYDRAULIC PRESS BEFORE CONVEYOR BELT 2
 
-arrow5Icon = pygame.image.load("arrow.png")
+arrow5Icon = pygame.image.load("images/arrow.png")
 arrow5Icon = pygame.transform.scale(arrow5Icon, (50, 50))
 arrow5Icon = pygame.transform.rotate(arrow5Icon, 135)
 arrow5IconRect = arrow5Icon.get_rect()
@@ -141,20 +141,20 @@ arrow5IconRect = arrow5IconRect.move(790, 210)
 
 textConveyorBelt2 = myfont.render('Conveyor belt', False, (0, 0, 0))
 
-conveyorBelt2Icon = pygame.image.load("conveyorBelt2.png")
+conveyorBelt2Icon = pygame.image.load("images/conveyorBelt2.png")
 conveyorBelt2Icon = pygame.transform.scale(conveyorBelt2Icon, (200, 200))
 conveyorBelt2Icon = pygame.transform.rotate(conveyorBelt2Icon, 335)
 conveyorBelt2IconRect = conveyorBelt2Icon.get_rect()
 conveyorBelt2IconRect = conveyorBelt2IconRect.move(580, 50)
 
-conveyorBelt2StatusIcon = pygame.image.load("circleStatus.png")
+conveyorBelt2StatusIcon = pygame.image.load("images/circleStatus.png")
 conveyorBelt2StatusIcon = pygame.transform.scale(conveyorBelt2StatusIcon, (20, 20))
 conveyorBelt2StatusIconRect = conveyorBelt2StatusIcon.get_rect()
 conveyorBelt2StatusIconRect = conveyorBelt2StatusIconRect.move(650, 70)
 
 # ARROW AFTER CONVEYOR BELT 2 AND BEFORE BOX WOOL PIECES
 
-arrow6Icon = pygame.image.load("arrow.png")
+arrow6Icon = pygame.image.load("images/arrow.png")
 arrow6Icon = pygame.transform.scale(arrow6Icon, (50, 50))
 arrow6Icon = pygame.transform.rotate(arrow6Icon, 180)
 arrow6IconRect = arrow6Icon.get_rect()
@@ -164,14 +164,14 @@ arrow6IconRect = arrow6IconRect.move(550, 120)
 
 textBoxWoolPieces = myfont.render('Woolen pieces box', False, (0, 0, 0))
 
-boxWoolPiecesIcon = pygame.image.load("boxWoolPieces.png")
+boxWoolPiecesIcon = pygame.image.load("images/boxWoolPieces.png")
 boxWoolPiecesIcon = pygame.transform.scale(boxWoolPiecesIcon, (150, 150))
 boxWoolPiecesIconRect = boxWoolPiecesIcon.get_rect()
 boxWoolPiecesIconRect = boxWoolPiecesIconRect.move(410, 50)
 
 # ARROW AFTER WOOL PIECES BOX AND BEFORE BOX WOOLEN HATS
 
-arrow7Icon = pygame.image.load("arrow.png")
+arrow7Icon = pygame.image.load("images/arrow.png")
 arrow7Icon = pygame.transform.scale(arrow7Icon, (50, 50))
 arrow7Icon = pygame.transform.rotate(arrow7Icon, 180)
 arrow7IconRect = arrow7Icon.get_rect()
@@ -181,7 +181,7 @@ arrow7IconRect = arrow7IconRect.move(300, 120)
 
 textWoolenHats = myfont.render('Woolen hats made', False, (0, 0, 0))
 
-woolenHatsIcon = pygame.image.load("woolenHat2.jpg")
+woolenHatsIcon = pygame.image.load("images/woolenHat2.jpg")
 woolenHatsIcon = pygame.transform.scale(woolenHatsIcon, (150, 150))
 woolenHatsIconRect = woolenHatsIcon.get_rect()
 woolenHatsIconRect = woolenHatsIconRect.move(80, 50)
